@@ -11,6 +11,7 @@ def index():
 @app.route('/<website>/random')
 def random(website):
     data = '<h2>%s</h2>'%str(website)
+    return data
 
 
 if __name__ == "__main__":
